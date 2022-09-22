@@ -43,15 +43,15 @@ ul {
 }
 
 .header .logo {
-    width: 25%;
+    /* width: 20%; */
     margin: 10px;
     object-fit: cover;
 }
 
-.header-main{
+.header-main {
     justify-content: center;
     display: flex;
-    width: 100%; 
+    width: 100%;
 }
 
 .header-main ul {
@@ -80,3 +80,15 @@ ul {
     font-size: 40px;
     margin: 10px;
 }
+
+/* main */
+
+.container {
+    background-color: white;
+    border: solid black 1px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 1.6rem auto;
+ 
+}
+

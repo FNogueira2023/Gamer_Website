@@ -2,7 +2,7 @@
 
     /* header */
     .logo {
-        width: 40%;
+        width: 30%;
         padding: 10px;
         margin: auto;
 
@@ -30,5 +30,90 @@
         align-self: center;
         margin: auto;
     }
+
+    /* main */
+    /*opening*/
+
+    .container {
+        background-color: white;
+        border: solid black 1px;
+        width: 100%;
+        margin: 1.6rem auto;
+
+    }
+
+    .opening figure {
+        grid-column: 1/-1;
+
+    }
+
+    .opening figure .crop {
+        width: 100%;
+        margin-bottom: -8rem;
+        /*BUSCAR MANERA DE NO OCUPAR ESPACIO CON PO
+     POSITION RELATIVE  */
+    }
+
+
+    .opening {
+        position: relative;
+    }
+
+    .opening .text {
+        z-index: 100;
+        position: relative;
+        color: white;
+        font-size: 20px;
+        bottom: 50px;
+        left: 10px;
+
+    }
+
+
+    /* news */
+
+
+
+
+
 }
 
+@media screen and (min-width: 768px) {
+
+    /* header */
+    .logo {
+        width: 20%;
+    }
+
+    /* opening */
+
+    .opening {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .opening figure {
+        position: relative;
+
+    }
+
+    .opening figure .crop {
+        object-fit: cover;
+        width: 400px;
+        height: 700px;
+        margin: auto;
+
+    }
+
+    .opening .text {
+        z-index: 100;
+        position: absolute;
+        bottom: 50px;
+
+        color: white;
+        font-size: 20px;
+        left: 10px;
+    }
+}
