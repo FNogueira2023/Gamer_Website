@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 a:link {
@@ -22,10 +23,19 @@ ul {
 
 /* header */
 .header {
+    width: 100%;
     background-color: black;
     color: white;
+    
+    opacity: 0.8;
     display: flex;
     justify-content: space-around;
+
+   
+    
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-left,
@@ -83,12 +93,26 @@ ul {
 
 /* main */
 
-.container {
+.container {    
     background-color: white;
     border: solid black 1px;
     width: 90%;
     max-width: 1400px;
-    margin: 1.6rem auto;
+    margin: 8rem auto; 
+}
+
+/* last news */
+
+.lastNews {
+    margin-top: 3rem;
+}
+
+.lastNews .title {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;   
  
+
 }
 
