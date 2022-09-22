@@ -19,6 +19,7 @@
     }
 
     #bars-menu {
+        display: block;
         background-color: black;
         color: white;
         font-size: 25px;
