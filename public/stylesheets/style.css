@@ -1,0 +1,41 @@
+/* CONFIG */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+    
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* header */
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .header-right {
+    display: flex;
+}
+
+.header .logo {
+    object-fit: cover;
+}

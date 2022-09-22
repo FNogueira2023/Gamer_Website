@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .logo {
+        width: 40%;
+        padding: 10px;
+        margin: auto;
+
+    }
+
+    .header .header-main,
+    .header .header-right ul {
+        display: none;
+    }
+
+    .header .header-left,
+    .header .header-right {
+        width: 50vw;
+    }
+
+    #bars-menu {
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        border-radius: 5px;
+        align-self: center;
+        margin: auto;
+    }
+}
+
