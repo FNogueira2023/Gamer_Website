@@ -38,7 +38,7 @@
         background-color: white;
         border: solid black 1px;
         width: 100%;
-        margin: 8rem auto; 
+        margin: 8rem auto;
 
     }
 
@@ -72,6 +72,21 @@
 
     /* news */
 
+    .lastNewsGallery {}
+
+    .lastNewsArticle {
+        grid-column: 1/-1;
+    }
+
+    .lastNewsTitle {}
+
+    .lastNewsImage {}
+
+    .lastNewsText {}
+
+
+
+
 
 
 
@@ -101,7 +116,7 @@
 
     .opening figure .crop {
         object-fit: cover;
-        width: 400px;
+        width: 455px;
         height: 700px;
         margin: auto;
 
