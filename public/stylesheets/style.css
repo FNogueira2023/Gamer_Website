@@ -26,6 +26,7 @@ ul {
     width: 100%;
     background-color: black;
     color: white;
+    font-size: 60%;
 
     opacity: 0.8;
     display: flex;
@@ -53,8 +54,7 @@ ul {
 }
 
 .header .logo {
-    /* width: 20%; */
-    margin: 10px;
+    /* width: 20%; */    
     object-fit: cover;
 }
 
@@ -87,7 +87,7 @@ ul {
 }
 
 .header-right ul i {
-    font-size: 40px;
+    font-size: 20px;
     margin: 10px;
 }
 
@@ -107,7 +107,8 @@ ul {
     margin-top: 3rem;
 }
 
-.lastNews .title {
+.lastNews .title,
+.podcasts .title {
     width: 100%;
     background-color: black;
     color: white;
@@ -133,14 +134,15 @@ ul {
 }
 
 
-.lastNewsArticle:nth-child(1) {    
+.lastNewsArticle:nth-child(1) {
     grid-column-start: span 3;
-    grid-row-start: span 2;    
+    grid-row-start: span 2;
 }
 
 .lastNewsArticle:nth-child(2) {
     grid-column-start: span 2;
 }
+
 .lastNewsArticle:nth-child(6) {
     grid-row-start: span 3;
 }
@@ -150,11 +152,49 @@ ul {
     position: absolute;
     bottom: 0;
     color: white;
-    
+
 }
 
 
 .lastNewsText {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    color: white;
+}
+
+/* podcasts */
+
+.podcasts .title {
+    margin-top: 1rem;
+}
+
+.podcastsGallery {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 500px;
+    padding-top: 10px;
+    grid-gap: 5px;
+}
+
+.podcastsArticle {
+    position: relative;
+}
+
+.podcastsImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.podcastsTitle {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.podcastsText {
     position: absolute;
     bottom: 0;
     left: 15%;
