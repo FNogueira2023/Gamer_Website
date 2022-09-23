@@ -216,12 +216,28 @@ ul {
 }
 
 .staffPicksGallery .staffPicksContent {
-    grid-column: span 3;
-    border: solid black 1px;
+    grid-column: span 3;    
+    display: grid;
+    padding: 10px;
 }
+
+.staffPicksContent .staffPicksArticle { 
+    grid-row-start: span 2;   
+    display: flex;
+    margin: 1rem;    
+}
+
+.staffPicksContent .staffPicksArticle .staffPicksInfo {
+    margin: 1rem;
+}
+
+
+
+/* sidebar */
 
 .staffPicksGallery .staffPicksSidebar {
     border: solid black 1px;
+    padding: 10px;
     grid-column: span 2;
     display: flex;
     justify-content: center;
