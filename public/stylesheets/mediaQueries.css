@@ -76,6 +76,20 @@
 
     .lastNewsArticle {
         grid-column: 1/-1;
+        
+    }
+
+    .lastNewsArticle:nth-child(1) {    
+        grid-column-start: span 3;
+        grid-row-start: span 1;    
+    }
+    
+    .lastNewsArticle:nth-child(2) {
+        grid-column-start: span 3;
+    
+    }
+    .lastNewsArticle:nth-child(6) {
+        grid-row-start: span 1;    
     }
 
     .lastNewsTitle {}
