@@ -102,21 +102,21 @@ ul {
     margin: 8rem auto;
 }
 
-/* last news */
 
-.lastNews {
-    margin-top: 3rem;
-}
-
+/*global titles  */
 .lastNews .title,
 .podcasts .title,
-.staffPicks .title {
+.staffPicks .title,
+.lastReviews .title,
+.news .title {
     width: 100%;
     background-color: black;
     color: white;
     padding: 15px;
+    margin-top: 3rem;
 }
 
+/* last news */
 .lastNewsGallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,13 +165,12 @@ ul {
     color: white;
 }
 
-/* podcasts */
+/* podcasts // lastReviews */
 
-.podcasts .title {
-    margin-top: 3rem;
-}
 
-.podcastsGallery {
+
+.podcastsGallery,
+.lastReviewsGallery {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -180,34 +179,38 @@ ul {
     grid-gap: 5px;
 }
 
-.podcastsArticle {
+.podcastsArticle,
+.lastReviewsArticle {
     position: relative;
 }
 
-.podcastsImage {
+.podcastsImage,
+.lastReviewsImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.podcastsTitle {
+.podcastsTitle,
+.lastReviewsTitle {
     position: absolute;
     bottom: 0;
     color: white;
 }
 
-.podcastsText {
+.podcastsText,
+.lastReviewsText {
     position: absolute;
     bottom: 0;
     left: 15%;
     color: white;
 }
 
-/* staffPicks */
 
-.staffPicks .title {
-    margin-top: 3rem;
-}
+
+
+
+/* staffPicks */
 
 .staffPicksGallery {
     display: grid;
@@ -230,6 +233,8 @@ ul {
 .staffPicksContent .staffPicksArticle .staffPicksInfo {
     margin: 1rem;
 }
+
+
 
 
 
