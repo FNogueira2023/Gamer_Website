@@ -38,8 +38,7 @@
     /* main */
     /*opening*/
     .container {
-        background-color: white;
-        border: solid black 1px;
+        background-color: white;        
         width: 100%;
         margin: 8rem auto;
 
@@ -118,6 +117,7 @@
 
     .staffPicksGallery .staffPicksSidebar {
         grid-column: 1/-1;
+        border: none;
     }
 
     .staffPicksContent .staffPicksArticle {
@@ -130,6 +130,17 @@
 
 
     /* carousels */
+
+
+    /* news */
+
+    .newsArticle {
+        border-top: 1px solid black;
+    }
+
+    .newsArticle:nth-child(1) {
+        border: none;
+    }
 
 }
 
