@@ -95,8 +95,7 @@ ul {
 /* main */
 
 .container {
-    background-color: white;
-    /* border: solid black 1px; */
+    background-color: white;    
     width: 90%;
     max-width: 1400px;
     margin: 8rem auto;
@@ -104,20 +103,17 @@ ul {
 
 
 /*global titles  */
-.lastNews .title,
-.podcasts .title,
-.staffPicks .title,
-.lastReviews .title,
-.news .title,
-.carousel .title {
+* .title {
     width: 100%;
     background-color: black;
     color: white;
     padding: 15px;
     margin-top: 3rem;
+
 }
 
 /* last news */
+.newsGallery,
 .lastNewsGallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -126,10 +122,12 @@ ul {
     grid-gap: 5px;
 }
 
+.newsArticle,
 .lastNewsArticle {
     position: relative;
 }
 
+.newsImage,
 .lastNewsImage {
     width: 100%;
     height: 100%;
@@ -150,15 +148,15 @@ ul {
     grid-row-start: span 3;
 }
 
-
+/* .newsTitle, */
 .lastNewsTitle {
     position: absolute;
     bottom: 0;
     color: white;
-
 }
 
 
+/* .newsText, */
 .lastNewsText {
     position: absolute;
     bottom: 0;
@@ -343,4 +341,36 @@ ul {
     position: absolute;
     bottom: 0;
     border-top: 1px solid white;
+}
+
+/*  news */
+
+.newsGallery {
+    gap: 1.5rem;
+
+}
+
+.newsArticle {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    grid-column-start: span 3;
+    
+}
+
+
+.newsImage {
+    width: 50%;
+    grid-column-start: span 2;
+}
+
+.newsInfo {
+    margin: 0 1rem;
+    width: ;
+}
+
+.newsTitle {}
+
+.newsText {
+    max-width: 500px;
 }
