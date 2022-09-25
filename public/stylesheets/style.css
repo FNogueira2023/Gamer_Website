@@ -92,6 +92,10 @@ ul {
     width: 100%;
 }
 
+.header-right ul {
+    border-left: white 1px solid;
+}
+
 .topFooter ul,
 .header-right ul {
     position: relative;
