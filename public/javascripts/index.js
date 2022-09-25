@@ -1,8 +1,18 @@
-const prev  = document.querySelector('.prev');
+const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
-
 const track = document.querySelector('.track');
 
+
+
+
+
+// search bar
+
+
+
+
+
+//  carousel
 let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 
 window.addEventListener('resize', () => {
@@ -15,10 +25,11 @@ next.addEventListener('click', () => {
   index++;
   prev.classList.add('show');
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
-  
+
   if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
     next.classList.add('hide');
   }
+  
 })
 
 prev.addEventListener('click', () => {
@@ -29,3 +40,13 @@ prev.addEventListener('click', () => {
   }
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
 })
+
+
+
+
+
+
+
+
+
+

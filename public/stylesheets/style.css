@@ -44,7 +44,7 @@ ul {
 
 .header-left,
 .header-right {
-    width: 25vw;
+    width: 30vw;
     display: flex;
 }
 
@@ -76,6 +76,11 @@ ul {
     margin: 1rem;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
 /* header / topFooter */
 
 .topFooter ul,
@@ -99,6 +104,50 @@ ul {
     font-size: 25px;
     margin: 10px;
 }
+
+
+/* search-bar */
+.search-bar {    
+    max-height: 40px;
+    border: 2px solid white;
+    display: flex; 
+    position: relative;
+    border-radius: 500px;
+    padding: 3px;
+    margin:  0 3rem;      
+}
+
+
+
+.search-bar__input {
+    position: relative;
+    bottom: 0;
+    flex-grow: 1;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    border: 0;
+    background-color: transparent;  
+    color: white;
+    
+}
+
+.search-bar__input:focus {
+    outline: 0;
+}
+
+.search-bar__submit { 
+    width: 40px;  
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    /* background-color: transparent; */
+    /* border-radius: 50%; */
+    background-color: transparent;
+    
+}
+
+
 
 /* main */
 
