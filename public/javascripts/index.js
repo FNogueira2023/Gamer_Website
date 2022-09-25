@@ -6,12 +6,6 @@ const track = document.querySelector('.track');
 
 
 
-// search bar
-
-
-
-
-
 //  carousel
 let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 
@@ -29,7 +23,7 @@ next.addEventListener('click', () => {
   if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
     next.classList.add('hide');
   }
-  
+
 })
 
 prev.addEventListener('click', () => {
