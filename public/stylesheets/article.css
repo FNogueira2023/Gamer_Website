@@ -20,29 +20,12 @@
 }
 
 /* grid-main */
-.articleBody {
-    display: grid;
-    
-    gap: 1.6rem;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.articleBody .articleMain {
-    border: solid 1px black;
-    grid-column: span 3;
-
-    padding: 3px;
+.articleBody { 
+      
 }
 
 .articleMain p{
     margin: 3rem ;
-}
-
-
-
-.articleBody .articleOthers{
-    border: solid 1px black;
-    grid-column: span 2;
 }
 
 .article img {
