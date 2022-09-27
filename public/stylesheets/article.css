@@ -1,0 +1,50 @@
+
+/* main */
+
+.article {
+    background-color: white;
+    width: 100%;
+    max-width: 1600px;
+    margin: 8rem auto;
+
+
+    font-size: 25px;
+    
+}
+
+.article h1,
+.article h2,
+.article p{
+    margin: 1rem;
+}
+
+/* grid-main */
+.articleBody {
+    display: grid;
+    
+    gap: 1.6rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.articleBody .articleMain {
+    border: solid 1px black;
+    grid-column: span 3;
+
+    padding: 3px;
+}
+
+.articleMain p{
+    margin: 3rem ;
+}
+
+
+
+.articleBody .articleOthers{
+    border: solid 1px black;
+    grid-column: span 2;
+}
+
+
+.articleOthersImage{}
+
+.articleOthersText{}

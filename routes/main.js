@@ -9,6 +9,9 @@ const mainController = require('../controllers/mainController');
 /* GET home page. */
 router.get('/', mainController.index);
 
+//  GET article
+router.get('/article',mainController.article);
+
 
 
 
