@@ -22,6 +22,10 @@
         width: 50vw;
     }
 
+    .logIcon i {
+        left: 12rem;
+    }
+
     #bars-menu {
         display: block;
         background-color: black;
@@ -169,8 +173,7 @@
 
     .search-box {
         display: none;
-    }
-    
+    }   
 
 }
 
