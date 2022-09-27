@@ -18,74 +18,8 @@
 
 <body>
   <!-- header -->
-  <header class="header">
-    <section class="header-left">
-      <img class="logo" src="/images/logo.jpg" alt="" />
-    </section>
-
-    <section class="header-main">
-      <ul>
-        <li>
-          <a href="#">
-            <h1>REVIEWS</h1>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h1>TOPS</h1>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h1>NEWS</h1>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h1>VIDEOS</h1>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h1>PROGRAM</h1>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h1>PODCASTS</h1>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="header-right">
-
-      <div class="search-box">
-        <button class="btn-search"><i class="fas fa-search"></i></button>
-        <input type="text" class="input-search" placeholder="Type to Search...">
-      </div>
-
-      <ul id="header-right-ul">
-        <li>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-twitch"></i></a>
-        </li>
-      </ul>
-
-      <i class="fa-solid fa-bars" id="bars-menu"></i>
-    </section>
-  </header>
+ 
+  <%- include("./partials/header.ejs") %>
 
   <!-- main -->
   <div class="container">
@@ -628,70 +562,7 @@
 
   <!-- footer -->
 
-  <section class="footer">
-    <div class="topFooter">
-      <div class="topFooter-left">
-        <img src="/images/logoFooter.jpg" alt="" />
-      </div>
-
-      <div class="topFooter-right">
-        <ul>
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitch"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="midFooter">
-      <ul>
-        <li>
-          <a href="">Sitemap</a>
-        </li>
-        <li>
-          <a href="">About</a>
-        </li>
-        <li>
-          <a href="">Ninja Store</a>
-        </li>
-        <li>
-          <a href="">Accessibility</a>
-        </li>
-
-        <li>
-          <a href="">Privacy</a>
-        </li>
-
-        <li>
-          <a href="">Terms of use</a>
-        </li>
-
-        <li>
-          <a href="">Advertising</a>
-        </li>
-
-        <li>
-          <a href="">Jobs</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="lowFooter">
-      <h3>©1991-2022 NinjaGamers, All Rights Reserved</h3>
-    </div>
-  </section>
+  <%- include("./partials/footer.ejs") %> 
 
   <script src="/javascripts/index.js"></script>
 </body>
