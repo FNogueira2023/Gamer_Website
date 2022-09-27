@@ -12,6 +12,9 @@ router.get('/', mainController.index);
 //  GET article
 router.get('/article',mainController.article);
 
+// Get review
+router.get('/review',mainController.review);
+
 
 
 

@@ -4,6 +4,9 @@ const controller = {
     },
     article: (req,res) => {
         res.render('article');
+    },
+    review: (req,res) => {
+        res.render('review');
     }
     
 };

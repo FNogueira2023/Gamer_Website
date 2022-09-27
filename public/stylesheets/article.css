@@ -4,7 +4,7 @@
 .article {
     background-color: white;
     width: 90%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 8rem auto;
 
     text-align: justify;
@@ -19,10 +19,6 @@
     margin: 3rem 2rem;
 }
 
-/* grid-main */
-.articleBody { 
-      
-}
 
 .articleMain p{
     margin: 3rem ;
@@ -35,5 +31,4 @@
 
 
 .articleOthersImage{}
-
 .articleOthersText{}
