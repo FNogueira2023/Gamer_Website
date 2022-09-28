@@ -2,21 +2,32 @@ const fs = require('fs');
 const path = require('path');
 
 
-const jsonData = fs.readFileSync(path.join(__dirname, '../models/data/lastNews.json'),
-    { encoding: 'utf8' });
+function lastNewsData() {
+    const jsonData = fs.readFileSync(path.join(__dirname, '../models/data/lastNews.json'),
+        { encoding: 'utf8' });
+    const lastNewsData = JSON.parse(jsonData);
 
-const lastNewsData = JSON.parse(jsonData);
+    return lastNewsData;
+}
 
-console.log(jsonData);
-console.log(lastNewsData);
+
+
 
 
 const controller = {
     index: (req, res) => {
-        res.render('index', {lastNewsData});
+        const lastNewsIndex = lastNewsData();
+        res.render('index', { lastNewsIndex });
     },
     article: (req, res) => {
-        res.render('article');
+        const lastNewsArticle = lastNewsData();
+
+        console.log(lastNewsArticle)
+        const selectedArticle = lastNewsArticle.find(article => {
+            return article.id = req.params.id;
+        })
+
+        res.render('article', { selectedArticle });
     },
     review: (req, res) => {
         res.render('review');

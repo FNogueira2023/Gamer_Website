@@ -10,10 +10,10 @@ const mainController = require('../controllers/mainController');
 router.get('/', mainController.index);
 
 //  GET article
-router.get('/article',mainController.article);
+router.get('/article/:id', mainController.article);
 
 // Get review
-router.get('/review',mainController.review);
+router.get('/review', mainController.review);
 
 
 
