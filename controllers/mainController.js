@@ -21,10 +21,9 @@ const controller = {
     },
     article: (req, res) => {
         const lastNewsArticle = lastNewsData();
-
-        console.log(lastNewsArticle)
+       
         const selectedArticle = lastNewsArticle.find(article => {
-            return article.id = req.params.id;
+            return article.id == req.params.id;
         })
 
         res.render('article', { selectedArticle });
