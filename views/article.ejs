@@ -26,190 +26,75 @@
     <%- include("./partials/header.ejs") %>
 
 
-
         <!-- main -->
 
         <section class="article">
-            <h1><%= selectedArticle.title %> </h1>
+            <h1>
+                <%= selectedArticle.title %>
+            </h1>
 
-            <h2><%= selectedArticle.subtitle %> </h2>
+            <h2>
+                <%= selectedArticle.subtitleA %>
+            </h2>
 
-            <p><%= selectedArticle.date %></p>
+            <p>
+                <%= selectedArticle.date %>
+            </p>
 
 
             <div class="articleBody">
-
                 <div class="articleMain">
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                        velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                        illo?
-                        Pariatur nobis magni dicta ea temporibus.</p>
-                        
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                        velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                        illo?
-                        Pariatur nobis magni dicta ea temporibus.</p>
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                        soluta
-                        non
-                        debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae
-                        eveniet laborum
-                        quibusdam doloribus magni totam dolor? Nihil laborum consequuntur commodi quae accusantium sed
-                        sapiente
-                        repellat quis voluptates qui!</p>
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-                        consequatur
-                        fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi
-                        reprehenderit porro
-                        eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos
-                        voluptatum error
-                        doloribus.</p>
-
+                    <div>
+                        <% for( let i=0; i < 4; i++ ) { %>
+                            <p>
+                                <%= selectedArticle.paragraphsA[i] %>
+                            </p>
+                            <% } %>
+                    </div>
 
                     <div class="video">
-                        <iframe width="100%" height="800" src="https://www.youtube.com/embed/_bqjjK-hwIU"
+                        <iframe width="100%" height="800" src=<%=selectedArticle.videoA %>
                             title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                            picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
 
+                    <h2>
+                        <%= selectedArticle.subtitleB %>
+                    </h2>
+
+                    <div>
+                        <% for( let i=0; i < 3; i++ ) { %>
+                            <p>
+                                <%= selectedArticle.paragraphsB[i] %>
+                            </p>
+                            <% } %>
+                    </div>
+
+                    <img src="/images/<%= selectedArticle.imageB %> " alt="">
 
 
+                    <div>
+                        <% for( let i=0; i < 4; i++ ) { %>
+                            <p>
+                                <%= selectedArticle.paragraphsC[i] %>
+                            </p>
+                            <% } %>
+                    </div>
 
+                    <img src="/images/<%= selectedArticle.imageC %> " alt="">
 
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis!</h2>
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                        velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                        illo?
-                        Pariatur nobis magni dicta ea temporibus.</p>
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                        esse
-                        consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                        dolore.
-                        Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                        dolore
-                        excepturi
-                        ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                        ut sint?</p>
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil
-                        facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                        illum est
-                        praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                        non dolorem
-                        molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                    <img src="/images/batmanCombate.jpg" alt="">
-
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil
-                        facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                        illum est
-                        praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                        non dolorem
-                        molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil
-                        facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                        illum est
-                        praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                        non dolorem
-                        molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil
-                        facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                        illum est
-                        praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                        non dolorem
-                        molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil
-                        facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                        illum est
-                        praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                        non dolorem
-                        molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-                    <img src="/images/batimovil.jpg" alt="">
-
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                        esse
-                        consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                        dolore.
-                        Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                        dolore
-                        excepturi
-                        ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                        ut sint?</p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                        esse
-                        consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                        dolore.
-                        Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                        dolore
-                        excepturi
-                        ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                        ut sint?</p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                        nihil facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? </p>
-
-
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis sit
-                        iusto rerum quia excepturi?
-                    </p>
-
-
-
-                    <p class="articleParagragh">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-
-
-
-
-
-
+                    <div>
+                        <% for( let i=0; i < 3; i++ ) { %>
+                            <p>
+                                <%= selectedArticle.paragraphsD[i] %>
+                            </p>
+                            <% } %>
+                    </div>
                 </div>
-
-
-
-
+            </div>
         </section>
-
-
-
 
         <!-- footer -->
 
