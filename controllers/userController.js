@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const bcryptjs = require('bcryptjs');
 
 
 
@@ -27,9 +28,9 @@ const controller = {
 
         const newUser = {
             id: data.length + 1,
-            user: req.body.user,            
+            user: req.body.user,
             email: req.body.email,
-            pswd:req.body.pswd
+            pswd: bcryptjs.hashSync(req.body.pswd, 10)
         }
 
         data.push(newUser);

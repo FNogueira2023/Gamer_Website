@@ -10,5 +10,17 @@
         "user": "legolas",
         "email": "legolasOfTheWoods@outlook.com",
         "pswd": "123456"
+    },
+    {
+        "id": 3,
+        "user": "Gandalf",
+        "email": "gandalf1232@hotmail.com",
+        "pswd": "5487"
+    },
+    {
+        "id": 4,
+        "user": "Boromir",
+        "email": "boromir@hotmail.com",
+        "pswd": "$2a$10$4ijjvOuvlhB2KsQN3m4ySuUXy3TBR8IFHphiUQoEHNcoEgMctcP8G"
     }
 ]
