@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "user": "gimli",
+        "email": "gimli2002@outlook.com",
+        "pswd": 123456
+    },
+    {
+        "id": 2,
+        "user": "legolas",
+        "email": "legolasOfTheWoods@outlook.com",
+        "pswd": "123456"
+    }
+]

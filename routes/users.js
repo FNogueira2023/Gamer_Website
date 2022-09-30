@@ -7,6 +7,7 @@ const usersValidations = require('../validations/usersValidations');
 
 
 router.get('/', userController.create);
+router.post('/',userController.store);
 
 
 

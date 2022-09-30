@@ -20,17 +20,23 @@ function writeFile(data) {
 
 const controller = {
     create: (req, res) => {
-        res.render('loginRestier');
+        res.render('loginRegister');
     },
     store: (req, res) => {
-        const data = findAll();
+        const data = findAll()
 
         const newUser = {
             id: data.length + 1,
-            user: req.body.user,
+            user: req.body.user,            
             email: req.body.email,
-            pswd: req.body.pswd
+            pswd:req.body.pswd
         }
+
+        data.push(newUser);
+
+        writeFile(data)
+
+        res.redirect("/users");
     }
 
 }
