@@ -1,7 +1,7 @@
 const {check} = require('express-validator');
 
 
-module.exports = {validateRegister : [
+const validateRegister = [
     check('name')
         .notEmpty()
         .withMessage('Please fill out this field')
@@ -22,5 +22,8 @@ module.exports = {validateRegister : [
         .isLength({min:4, max:8})
         .withMessage('The password must have between 4 and 8 characters')
         .bail()
-]
-};
+        .isStrongPassword()
+        .withMessage('The password must be strong')
+];
+
+module.exports = validateRegister;
