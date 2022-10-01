@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const bcryptjs = require('bcryptjs');
+const { validationResult } = require('express-validator');
 
 
 
@@ -24,22 +25,34 @@ const controller = {
         res.render('loginRegister');
     },
     store: (req, res) => {
-        const data = findAll()
+        let errors = validationResult(req);
 
-        const newUser = {
-            id: data.length + 1,
-            user: req.body.user,
-            email: req.body.email,
-            pswd: bcryptjs.hashSync(req.body.pswd, 10)
+        if (!errors.isEmpty()) {
+            return res.render('loginRegister',
+                {
+                    errors: errors.array(),
+                    old: req.body
+                });
+        } else {
+
+            const data = findAll()
+
+            const newUser = {
+                id: data.length + 1,
+                user: req.body.user,
+                email: req.body.email,
+                pswd: bcryptjs.hashSync(req.body.pswd, 10)
+
+            }
+
+            data.push(newUser);
+
+            writeFile(data)
+
+            res.redirect("/users");
+
         }
-
-        data.push(newUser);
-
-        writeFile(data)
-
-        res.redirect("/users");
     }
-
 }
 
 

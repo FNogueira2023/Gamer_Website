@@ -1,29 +1,25 @@
-const {check} = require('express-validator');
+const {body} = require('express-validator');
 
 
 const validateRegister = [
-    check('name')
+    body('user')
         .notEmpty()
-        .withMessage('Please fill out this field')
+        .withMessage('Please fill out with your user name')
         .bail()
-        .isLength({min:1 ,max:10})
+        .isLength({max:10})
+        .withMessage('The user name must have less than 10 characters')
         .bail(),
-    check('email')
+    body('email')
         .notEmpty()
-        .withMessage('Please fill out this field')
+        .withMessage('Please fill out with your email')
         .bail()
         .isEmail()
         .withMessage('It must be a valid email format')
         .bail(),
-    check('pswd')
-        .notEmpty()
-        .withMessage('Please fill out this field')
-        .bail()
+    body('pswd')        
         .isLength({min:4, max:8})
         .withMessage('The password must have between 4 and 8 characters')
-        .bail()
-        .isStrongPassword()
-        .withMessage('The password must be strong')
+        .bail()        
 ];
 
 module.exports = validateRegister;

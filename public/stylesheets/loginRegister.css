@@ -1,9 +1,11 @@
+/* CONFIG */
+
 .container{
     margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;	
+	min-height: 90vh;	
 	background: white;
 }
 .main{
@@ -14,6 +16,13 @@
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
+
+
+
+
+
+/* container */
+
 .container #chk{
 	display: none;
 }
@@ -88,3 +97,13 @@
 	transform: scale(.6);
 }
 
+
+/* errorsMessage */
+
+#errorsMessage{	
+	display: flex;
+	justify-content: center;		
+	color: red;
+	font-size: 25px;
+
+}

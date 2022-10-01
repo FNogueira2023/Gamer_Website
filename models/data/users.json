@@ -22,5 +22,18 @@
         "user": "Boromir",
         "email": "boromir@hotmail.com",
         "pswd": "$2a$10$4ijjvOuvlhB2KsQN3m4ySuUXy3TBR8IFHphiUQoEHNcoEgMctcP8G"
+    },
+    {
+        "id": 5,
+        "user": "Gloin",
+        "email": "gloin@hotmail.com",
+        "pswd": "$2a$10$3SO2dnyRiIcitlqEcWYJMO22dolsl1kmwpjwUJTviynpqHh1VhtAS"
+    },
+    {
+        "id": 6,
+        "user": "Sauron",
+        "email": "sauron230@hotmail.com",
+        "pswd": "$2a$10$Cc0kTfXYRRpjx/9TErlp6uLF2BfS5T9DTnJgvN9rUJty6SRk18J3e"
     }
+   
 ]
