@@ -34,6 +34,41 @@
         "user": "Sauron",
         "email": "sauron230@hotmail.com",
         "pswd": "$2a$10$Cc0kTfXYRRpjx/9TErlp6uLF2BfS5T9DTnJgvN9rUJty6SRk18J3e"
-    }
-   
+    },
+    {
+        "id": 7,
+        "user": "Theoden",
+        "email": "theo@hotmail.com",
+        "pswd": "$2a$10$/go/UBvKAd7aOsueSWBIiu2nn7t3gqZBUJ.JCPBNJ4zzkEYXQ7FTO"
+    },
+    {
+        "id": 8,
+        "user": "Gollum",
+        "email": "myprecious@hotmail.com",
+        "pswd": "$2a$10$b9lgDE9729eMLPVFbieg0eZsjSVkc4shBM2JHYdbgmnxuLasqH5Qa"
+    },
+    {
+        "id": 9,
+        "user": "Saruman",
+        "email": "whiteMage@hotmail.com",
+        "pswd": "$2a$10$2AHae3x6f4MMMOmMA1p.w.RtobLZx.Zdfw64nOsPVk5Rj9.1iwC62"
+    },
+    {
+        "id": 10,
+        "user": "Isildur",
+        "email": "isildur@hotmail.com",
+        "pswd": "123456"
+    },
+    {
+        "id": 11,
+        "user": "Merry",
+        "email": "merry@hotmail.com",
+        "pswd": "$2a$10$kNgGUSigG.RXEHyWhDGrxO/Xgg2L.FHDNicqcVoGcHxhLZBeH5ONq"
+    },
+    {
+        "id": 12,
+        "user": "Pippin",
+        "email": "pippin@hotmail.com",
+        "pswd": "$2a$10$Bo.cNUi0A/S4Szdy.J8XOO16ye49GfsBJsjq5d/VFDRJsV22AB0nK"
+    } 
 ]

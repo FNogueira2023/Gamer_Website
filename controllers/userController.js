@@ -52,6 +52,42 @@ const controller = {
             res.redirect("/users");
 
         }
+    },
+    login: (req, res) => {
+        let errors = validationResult(req);
+
+        if (!errors.isEmpty()) {
+            return res.render('loginRegister',
+                {
+                    errors: errors.array(),
+                    old: req.body
+                });
+        } else {
+            const data = findAll()
+
+            for (let i = 0; i < data.length; i++) {
+                if (data[i].email == req.body.email) {
+                    if (bcryptjs.compareSync(req.body.pswd, data[i].pswd)) {
+                        var loggedUser = data[i];
+                        break;
+                    }
+
+                }
+            }
+
+            if (loggedUser == undefined) {
+                return res.render('loginRegister',
+                    {
+                        errors: [
+                            { msg: 'Invalid credentials' }
+                        ]
+                    });
+            }
+
+            req.session.user = loggedUser;           
+            return res.render('loginRegister');
+
+        }
     }
 }
 

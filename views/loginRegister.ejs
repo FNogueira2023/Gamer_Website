@@ -30,10 +30,11 @@
                 <input type="checkbox" id="chk" aria-hidden="true">
 
                 <div class="signup">
-                    <form action="/users" method="post">
+                    <form action="/users/create" method="post">                        
                         <label for="chk" aria-hidden="true">Sign up</label>
+                        <input type="hidden" name="formType" value="signup">
                         <input type="text" name="user" placeholder="User name" value="<%=locals.old && old.user ? old.user :"User name" %>" required>
-                        <input type="email" name="email" placeholder="Email" value="<%= locals.old && old.user  ? old.email :" Email" %>" required>
+                        <input type="email" name="email" placeholder="Email" value="<%= locals.old && old.user  ? old.email :"Email" %>" required>
                         <input type="password" name="pswd" placeholder="Password" value="<%= locals.old && old.pswd ? old.pswd :"Password" %>" required>
                         <button type="submit">Sign up</button>
 
@@ -41,11 +42,12 @@
                 </div>
 
                 <div class="login">
-                    <form>
+                    <form action="/users/login" method="post">
                         <label for="chk" aria-hidden="true">Login</label>
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="hidden" name="formType" value="login">
+                        <input type="email" name="email" placeholder="Email" value="<%= locals.old && old.email  ? old.email : "Email" %>" required>
                         <input type="password" name="pswd" placeholder="Password" required>
-                        <button>Login</button>
+                        <button type="submit">Login</button>
                     </form>
                 </div>
             </div>
