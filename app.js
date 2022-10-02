@@ -5,9 +5,11 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const session =   require('express-session');
 
+const cookieAuthMiddleWare = require('./middlewares/cookieAuthMiddleWare');
 
 const mainRouter = require('./routes/main');
 const usersRouter = require('./routes/users');
+
 
 const app = express();
 
@@ -26,6 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({ secret: 'Our ninja secret'}));
+app.use(cookieAuthMiddleWare);
 
 app.use('/', mainRouter);
 app.use('/users', usersRouter);

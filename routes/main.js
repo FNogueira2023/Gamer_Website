@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 const mainController = require('../controllers/mainController');
-
+const authMiddleware = require('../middlewares/authMiddleware');
 
 
 
@@ -13,7 +13,8 @@ router.get('/', mainController.index);
 router.get('/article/:id', mainController.article);
 
 // Get review
-router.get('/review', mainController.review);
+// authmiddleware esta como testeo!
+router.get('/review',authMiddleware, mainController.review);
 
 
 

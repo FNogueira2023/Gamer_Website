@@ -84,6 +84,12 @@ const controller = {
                     });
             }
 
+
+
+
+            res.cookie('rememberUser', loggedUser.email, {
+                maxAge: 100000000})
+
             req.session.user = loggedUser;           
             return res.render('loginRegister');
 
