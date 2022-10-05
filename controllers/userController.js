@@ -7,7 +7,7 @@ const { validationResult } = require('express-validator');
 
 
 function findAll() {
-    const jsonData = fs.readFileSync(path.join(__dirname, '../models/data/users.json'));
+    const jsonData = fs.readFileSync(path.join(__dirname, '../Database/users.json'));
     const data = JSON.parse(jsonData);
     return data
 }
@@ -15,7 +15,7 @@ function findAll() {
 
 function writeFile(data) {
     const dataString = JSON.stringify(data, null, 4);
-    fs.writeFileSync(path.join(__dirname, '../models/data/users.json'), dataString);
+    fs.writeFileSync(path.join(__dirname, '../Database/users.json'), dataString);
 }
 
 
@@ -87,10 +87,13 @@ const controller = {
 
 
 
-            res.cookie('rememberUser', loggedUser.email, {
-                maxAge: 1000000000})
 
-            req.session.user = loggedUser;           
+
+            req.session.user = loggedUser;
+
+            res.cookie('rememberUser', loggedUser.email, {
+                maxAge: 1000000000
+            })
             return res.render('loginRegister');
 
         }

@@ -3,7 +3,7 @@ const path = require('path');
 
 
 function lastNewsData() {
-    const jsonData = fs.readFileSync(path.join(__dirname, '../models/data/lastNews.json'),
+    const jsonData = fs.readFileSync(path.join(__dirname, '../Database/lastNews.json'),
         { encoding: 'utf8' });
     const lastNewsData = JSON.parse(jsonData);
 
