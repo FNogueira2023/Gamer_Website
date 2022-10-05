@@ -1,11 +1,15 @@
+const fs = require("fs");
+const path = require("path");
+
 function cookieAuthMiddleWare(req, res, next) {
+
     next();
 
     if (req.cookies.rememberUser != undefined &&
         req.session.user == undefined) {
 
         function findAll() {
-            const jsonData = fs.readFileSync(path.join(__dirname, '../models/data/users.json'));
+            const jsonData = fs.readFileSync(path.join(__dirname, '../Database/users.json'));
             const data = JSON.parse(jsonData);
             return data
         }
@@ -20,8 +24,7 @@ function cookieAuthMiddleWare(req, res, next) {
         } req.session.user = loggedUser;
 
     }
-    console.log(loggedUser);
-    console.log(req.session.user);
+
 
 }
 

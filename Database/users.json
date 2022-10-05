@@ -70,5 +70,11 @@
         "user": "Pippin",
         "email": "pippin@hotmail.com",
         "pswd": "$2a$10$Bo.cNUi0A/S4Szdy.J8XOO16ye49GfsBJsjq5d/VFDRJsV22AB0nK"
-    } 
+    },
+    {
+        "id": 13,
+        "user": "faramir",
+        "email": "faramir2022@hotmail.com",
+        "pswd": "$2a$10$5WmK2c9k0da/b.yENnK03OlFvbaXoiww7ujBK4EwUVqb1e1jCWle."
+    }
 ]

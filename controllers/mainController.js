@@ -17,6 +17,8 @@ function lastNewsData() {
 const controller = {
     index: (req, res) => {
         const lastNewsIndex = lastNewsData();
+
+        console.log(req.session.user);
         res.render('index', { lastNewsIndex });
     },
     article: (req, res) => {
