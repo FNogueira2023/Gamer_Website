@@ -23,7 +23,7 @@ const controller = {
     },
     article: (req, res) => {
         const lastNewsArticle = lastNewsData();
-       
+
         const selectedArticle = lastNewsArticle.find(article => {
             return article.id == req.params.id;
         })
@@ -32,6 +32,9 @@ const controller = {
     },
     review: (req, res) => {
         res.render('review');
+    },
+    podcast: (req, res) => {
+        res.render('podcast');
     }
 
 };

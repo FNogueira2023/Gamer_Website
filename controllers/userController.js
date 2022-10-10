@@ -71,7 +71,6 @@ const controller = {
                         var loggedUser = data[i];
                         break;
                     }
-
                 }
             }
 
@@ -85,26 +84,16 @@ const controller = {
             }
 
 
-
-
-
-
             req.session.user = loggedUser;
 
             res.cookie('rememberUser', loggedUser.email, {
                 maxAge: 1000000000
-            })      
+            })
 
-
-            console.log(req.session.user);
-            console.log(loggedUser);
-            console.log(req.cookies);
- 
             return res.render('loginRegister');
 
         }
     }
 }
-
 
 module.exports = controller;
