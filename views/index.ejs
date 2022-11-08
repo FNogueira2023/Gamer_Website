@@ -18,553 +18,594 @@
 
 <body>
   <!-- header -->
- 
+
   <%- include("./partials/header.ejs") %>
 
-  <!-- main -->
-  <div class="container">
-    <main>
-      <!-- opening -->
-      <section class="opening">
-        <!-- fig1 -->
-        <figure>
-          <a href="">
-            <img class="crop" src="/images/hellblade.jpg" alt="" />
-          </a>
-
-          <div class="text">
+    <!-- main -->
+    <div class="container">
+      <main>
+        <!-- opening -->
+        <section class="opening">
+          <!-- fig1 -->
+          <figure>
             <a href="">
-              <h4>HELLBLADE</h4>
+              <img class="crop" src="/images/hellblade.jpg" alt="" />
             </a>
 
-            <h2>Hellblade: Senua's Sacrifice</h2>
-            <div class="author">
-              <h5>Por Elías Rosenfeld</h5>
+            <div class="text">
+              <a href="">
+                <h4>HELLBLADE</h4>
+              </a>
+
+              <h2>Hellblade: Senua's Sacrifice</h2>
+              <div class="author">
+                <h5>Por Elías Rosenfeld</h5>
+              </div>
             </div>
-          </div>
-        </figure>
+          </figure>
 
-        <!-- fig2 -->
-        <figure>
-          <a href="">
-            <img class="crop" src="/images/halo.jpeg" alt="" />
-          </a>
-
-          <div class="text">
+          <!-- fig2 -->
+          <figure>
             <a href="">
-              <h4>HALO</h4>
+              <img class="crop" src="/images/halo.jpeg" alt="" />
             </a>
 
-            <h2>Halo Infinite</h2>
-            <div class="author">
-              <h5>Por David Rosenberg</h5>
+            <div class="text">
+              <a href="">
+                <h4>HALO</h4>
+              </a>
+
+              <h2>Halo Infinite</h2>
+              <div class="author">
+                <h5>Por David Rosenberg</h5>
+              </div>
             </div>
-          </div>
-        </figure>
+          </figure>
 
-        <!-- fig3 -->
-        <figure>
-          <a href="">
-            <img class="crop" src="/images/forza.jpg" alt="" />
-          </a>
-
-          <div class="text">
+          <!-- fig3 -->
+          <figure>
             <a href="">
-              <h4>FORZA</h4>
+              <img class="crop" src="/images/forza.jpg" alt="" />
             </a>
 
-            <h2>Forza Horizon 5</h2>
-            <div class="author">
-              <h5>Por Nathan Coval</h5>
+            <div class="text">
+              <a href="">
+                <h4>FORZA</h4>
+              </a>
+
+              <h2>Forza Horizon 5</h2>
+              <div class="author">
+                <h5>Por Nathan Coval</h5>
+              </div>
             </div>
-          </div>
-        </figure>
-      </section>
+          </figure>
+        </section>
 
-      <!-- last news -->
-      <section class="lastNews">
-        <div class="title">
-          <h1>Last News</h1>
-        </div>
-
-        <div class="lastNewsGallery">
-          <article class="lastNewsArticle">
-            <a href="/article/1"><img src="/images/<%= lastNewsIndex[1].imageA %>" alt="" class="lastNewsImage"/></a>
-            <h2 class="lastNewsTitle"> <%= lastNewsIndex[1].title %> </h2>
-            <p class="lastNewsText"><%= lastNewsIndex[1].subtitle %></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/2"><img src="/images/<%= lastNewsIndex[2].imageA %>" alt="" class="lastNewsImage" /></a>
-            <h2 class="lastNewsTitle"><%= lastNewsIndex[2].title %></h2>
-            <p class="lastNewsText"><%= lastNewsIndex[2].subtitle %></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/3"><img src="/images/<%=lastNewsIndex[3].imageA%>" alt="" class="lastNewsImage" /></a>
-            <h2 class="lastNewsTitle"><%= lastNewsIndex[3].title %></h2>
-            <p class="lastNewsText"><%= lastNewsIndex[3].subtitle %></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/4"><img src="/images/<%=lastNewsIndex[4].imageA%>" alt="" class="lastNewsImage" /></a>
-            <h2 class="lastNewsTitle"><%= lastNewsIndex[4].title %></h2>
-            <p class="lastNewsText"><%= lastNewsIndex[4].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/5"><img src="/images/<%=lastNewsIndex[5].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[5].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[5].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/6"><img src="/images/<%=lastNewsIndex[6].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[6].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[6].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/7"><img src="/images/<%=lastNewsIndex[7].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[7].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[7].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/8"><img src="/images/<%=lastNewsIndex[8].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[8].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[8].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/9"><img src="/images/<%=lastNewsIndex[9].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[9].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[9].subtitle%></p>
-          </article>
-
-          <article class="lastNewsArticle">
-            <a href="/article/10"><img src="/images/<%=lastNewsIndex[10].imageA%>" alt="" class="lastNewsImage" /> </a>
-            <h2 class="lastNewsTitle"><%=lastNewsIndex[10].title%></h2>
-            <p class="lastNewsText"><%=lastNewsIndex[10].subtitle%></p>
-          </article>
-        </div>
-      </section>
-
-      <!-- podcasts -->
-      <section class="podcasts">
-        <div class="title">
-          <h1>Podcasts</h1>
-        </div>
-
-        <div class="podcastsGallery">
-          <article class="podcastsArticle">
-            <img src="/images/podcasts/aloneA.jpg" alt="" class="podcastsImage" />
-            <h2 class="podcastsTitle">Title</h2>
-            <p class="podcastsText">Lorem ipsum dolor sit amet.</p>
-          </article>
-
-          <article class="podcastsArticle">
-            <img src="/images/anime.jpg" alt="" class="podcastsImage" />
-            <h2 class="podcastsTitle">Title</h2>
-            <p class="podcastsText">Lorem ipsum dolor sit amet.</p>
-          </article>
-
-          <article class="podcastsArticle">
-            <img src="/images/gamescom.jpg" alt="" class="podcastsImage" />
-            <h2 class="podcastsTitle">Title</h2>
-            <p class="podcastsText">Lorem ipsum dolor sit amet.</p>
-          </article>
-
-          <article class="podcastsArticle">
-            <img src="/images/kojima.jpg" alt="" class="podcastsImage" />
-            <h2 class="podcastsTitle">Title</h2>
-            <p class="podcastsText">Lorem ipsum dolor sit amet.</p>
-          </article>
-        </div>
-      </section>
-
-      <!-- staffPicks -->
-      <section class="staffPicks">
-        <div class="title">
-          <h1>Staff Picks</h1>
-        </div>
-
-        <div class="staffPicksGallery">
-          <div class="staffPicksContent">
-            <article class="staffPicksArticle">
-              <img src="/images/tokio.jpeg" alt="" />
-              <div class="staffPicksInfo">
-                <h1 class="staffPicksTitle">Title</h1>
-                <p class="staffPicksText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, quisquam?
-                </p>
-              </div>
-            </article>
-
-            <article class="staffPicksArticle">
-              <img src="/images/tokio.jpeg" alt="" />
-              <div class="staffPicksInfo">
-                <h1 class="staffPicksTitle">Title</h1>
-                <p class="staffPicksText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, quisquam?
-                </p>
-              </div>
-            </article>
-
-            <article class="staffPicksArticle">
-              <img src="/images/tokio.jpeg" alt="" />
-              <div class="staffPicksInfo">
-                <h1 class="staffPicksTitle">Title</h1>
-                <p class="staffPicksText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, quisquam?
-                </p>
-              </div>
-            </article>
-
-            <article class="staffPicksArticle">
-              <img src="/images/tokio.jpeg" alt="" />
-              <div class="staffPicksInfo">
-                <h1 class="staffPicksTitle">Title</h1>
-                <p class="staffPicksText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, quisquam?
-                </p>
-              </div>
-            </article>
+        <!-- last news -->
+        <section class="lastNews">
+          <div class="title">
+            <h1>Last News</h1>
           </div>
 
-          <aside class="staffPicksSidebar">
-            <div>
-              <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
-              <a href="">
-                <p class="staffPicksSidebarText">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Cum, quae!
-                </p>
+          <div class="lastNewsGallery">
+            <article class="lastNewsArticle">
+              <a href="/article/1"><img src="/images/<%= lastNewsIndex[1].imageA %>" alt="" class="lastNewsImage" /></a>
+              <h2 class="lastNewsTitle">
+                <%= lastNewsIndex[1].title %>
+              </h2>
+              <p class="lastNewsText">
+                <%= lastNewsIndex[1].subtitle %>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/2"><img src="/images/<%= lastNewsIndex[2].imageA %>" alt="" class="lastNewsImage" /></a>
+              <h2 class="lastNewsTitle">
+                <%= lastNewsIndex[2].title %>
+              </h2>
+              <p class="lastNewsText">
+                <%= lastNewsIndex[2].subtitle %>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/3"><img src="/images/<%=lastNewsIndex[3].imageA%>" alt="" class="lastNewsImage" /></a>
+              <h2 class="lastNewsTitle">
+                <%= lastNewsIndex[3].title %>
+              </h2>
+              <p class="lastNewsText">
+                <%= lastNewsIndex[3].subtitle %>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/4"><img src="/images/<%=lastNewsIndex[4].imageA%>" alt="" class="lastNewsImage" /></a>
+              <h2 class="lastNewsTitle">
+                <%= lastNewsIndex[4].title %>
+              </h2>
+              <p class="lastNewsText">
+                <%= lastNewsIndex[4].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/5"><img src="/images/<%=lastNewsIndex[5].imageA%>" alt="" class="lastNewsImage" /> </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[5].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[5].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/6"><img src="/images/<%=lastNewsIndex[6].imageA%>" alt="" class="lastNewsImage" /> </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[6].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[6].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/7"><img src="/images/<%=lastNewsIndex[7].imageA%>" alt="" class="lastNewsImage" /> </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[7].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[7].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/8"><img src="/images/<%=lastNewsIndex[8].imageA%>" alt="" class="lastNewsImage" /> </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[8].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[8].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/9"><img src="/images/<%=lastNewsIndex[9].imageA%>" alt="" class="lastNewsImage" /> </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[9].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[9].subtitle%>
+              </p>
+            </article>
+
+            <article class="lastNewsArticle">
+              <a href="/article/10"><img src="/images/<%=lastNewsIndex[10].imageA%>" alt="" class="lastNewsImage" />
               </a>
+              <h2 class="lastNewsTitle">
+                <%=lastNewsIndex[10].title%>
+              </h2>
+              <p class="lastNewsText">
+                <%=lastNewsIndex[10].subtitle%>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- podcasts -->
+        <section class="podcasts">
+          <div class="title">
+            <h1>Podcasts</h1>
+          </div>
+
+          <div class="podcastsGallery">
+            <article class="podcastsArticle">
+              <img src="/images/podcasts/aloneA.jpg" alt="" class="podcastsImage" />
+              <h2 class="podcastsTitle">Title</h2>
+
+            </article>
+
+            <article class="podcastsArticle">
+              <img src="/images/animeA.jpg" alt="" class="podcastsImage" />
+              <h2 class="podcastsTitle">Title</h2>
+
+            </article>
+
+            <article class="podcastsArticle">
+              <img src="/images/gamescomA.jpg" alt="" class="podcastsImage" />
+              <h2 class="podcastsTitle">Title</h2>
+
+            </article>
+
+            <article class="podcastsArticle">
+              <img src="/images/kojimaA.jpg" alt="" class="podcastsImage" />
+              <h2 class="podcastsTitle">Title</h2>
+
+            </article>
+          </div>
+        </section>
+
+        <!-- staffPicks -->
+        <section class="staffPicks">
+          <div class="title">
+            <h1>Staff Picks</h1>
+          </div>
+
+          <div class="staffPicksGallery">
+            <div class="staffPicksContent">
+              <article class="staffPicksArticle">
+                <img src="/images/tokio.jpeg" alt="" />
+                <div class="staffPicksInfo">
+                  <h1 class="staffPicksTitle">Title</h1>
+                  <p class="staffPicksText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, quisquam?
+                  </p>
+                </div>
+              </article>
+
+              <article class="staffPicksArticle">
+                <img src="/images/tokio.jpeg" alt="" />
+                <div class="staffPicksInfo">
+                  <h1 class="staffPicksTitle">Title</h1>
+                  <p class="staffPicksText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, quisquam?
+                  </p>
+                </div>
+              </article>
+
+              <article class="staffPicksArticle">
+                <img src="/images/tokio.jpeg" alt="" />
+                <div class="staffPicksInfo">
+                  <h1 class="staffPicksTitle">Title</h1>
+                  <p class="staffPicksText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, quisquam?
+                  </p>
+                </div>
+              </article>
+
+              <article class="staffPicksArticle">
+                <img src="/images/tokio.jpeg" alt="" />
+                <div class="staffPicksInfo">
+                  <h1 class="staffPicksTitle">Title</h1>
+                  <p class="staffPicksText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, quisquam?
+                  </p>
+                </div>
+              </article>
             </div>
 
-            <div>
-              <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
-              <a href="">
-                <p class="staffPicksSidebarText">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nihil, voluptatem!
-                </p>
-              </a>
-            </div>
+            <aside class="staffPicksSidebar">
+              <div>
+                <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
+                <a href="">
+                  <p class="staffPicksSidebarText">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cum, quae!
+                  </p>
+                </a>
+              </div>
 
-            <div>
-              <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
-              <a href="">
-                <p class="staffPicksSidebarText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi, praesentium?
-                </p>
-              </a>
-            </div>
+              <div>
+                <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
+                <a href="">
+                  <p class="staffPicksSidebarText">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nihil, voluptatem!
+                  </p>
+                </a>
+              </div>
 
-            <div>
-              <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
-              <a href="">
-                <p class="staffPicksSidebarText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi, praesentium?
-                </p>
-              </a>
-            </div>
+              <div>
+                <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
+                <a href="">
+                  <p class="staffPicksSidebarText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi, praesentium?
+                  </p>
+                </a>
+              </div>
 
-            <div>
-              <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
-              <a href="">
-                <p class="staffPicksSidebarText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi, praesentium?
-                </p>
-              </a>
-            </div>
-          </aside>
-        </div>
-      </section>
+              <div>
+                <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
+                <a href="">
+                  <p class="staffPicksSidebarText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi, praesentium?
+                  </p>
+                </a>
+              </div>
 
-      <!-- last reviews -->
-      <section class="lastReviews">
-        <div class="title">
-          <h1>Last Reviews</h1>
-        </div>
+              <div>
+                <img class="staffPicksSidebarImage" src="/images/logo.jpg" alt="" />
+                <a href="">
+                  <p class="staffPicksSidebarText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi, praesentium?
+                  </p>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
 
-        <div class="lastReviewsGallery">
-          <article class="lastReviewsArticle">
-            <img src="/images/alone.jpg" alt="" class="lastReviewsImage" />
-            <!-- <div class="lastReviewsInfo">
+        <!-- last reviews -->
+        <section class="lastReviews">
+          <div class="title">
+            <h1>Last Reviews</h1>
+          </div>
+
+          <div class="lastReviewsGallery">
+            <article class="lastReviewsArticle">
+              <img src="/images/aloneA.jpg" alt="" class="lastReviewsImage" />
+              <!-- <div class="lastReviewsInfo">
                             <h2 class="lastReviewsTitle">Title</h2>
                             <p class="lastReviewsText">Lorem ipsum dolor sit amet.</p>                             -->
-            <!-- </div>  -->
-          </article>
+              <!-- </div>  -->
+            </article>
 
-          <article class="lastReviewsArticle">
-            <img src="/images/anime.jpg" alt="" class="lastReviewsImage" />
-            <!-- <div class="lastReviewsInfo">
+            <article class="lastReviewsArticle">
+              <img src="/images/podcasts/animeA.jpg" alt="" class="lastReviewsImage" />
+              <!-- <div class="lastReviewsInfo">
                             <h2 class="lastReviewsTitle">Title</h2>
                             <p class="lastReviewsText">Lorem ipsum dolor sit amet.</p>
                         </div> -->
-          </article>
+            </article>
 
-          <article class="lastReviewsArticle">
-            <img src="/images/gamescom.jpg" alt="" class="lastReviewsImage" />
-            <!-- <div class="lastReviewsInfo">
+            <article class="lastReviewsArticle">
+              <img src="/images/gamescom.jpg" alt="" class="lastReviewsImage" />
+              <!-- <div class="lastReviewsInfo">
                             <h2 class="lastReviewsTitle">Title</h2>
                             <p class="lastReviewsText">Lorem ipsum dolor sit amet.</p>
                         </div> -->
-          </article>
+            </article>
 
-          <article class="lastReviewsArticle">
-            <img src="/images/kojima.jpg" alt="" class="lastReviewsImage" />
-            <!-- <div class="lastReviewsInfo">
+            <article class="lastReviewsArticle">
+              <img src="/images/kojima.jpg" alt="" class="lastReviewsImage" />
+              <!-- <div class="lastReviewsInfo">
                             <h2 class="lastReviewsTitle">Title</h2>
                             <p class="lastReviewsText">Lorem ipsum dolor sit amet.</p>
                         </div> -->
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
 
-      <!-- carousel -->
-      <section class="carousel">
-        <div class="title">
-          <h1>Tech Deals</h1>
-        </div>
+        <!-- carousel -->
+        <section class="carousel">
+          <div class="title">
+            <h1>Tech Deals</h1>
+          </div>
 
-        <div class="carousel-container">
-          <div class="carousel-inner">
-            <div class="track">
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+          <div class="carousel-container">
+            <div class="carousel-inner">
+              <div class="track">
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 2</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 2</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 3</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 3</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
 
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
-              </div>
 
-              <div class="card-container">
-                <div class="card">
-                  <img src="/images/joystick.jpg" alt="" />
-                  <div class="info">Title 1</div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="/images/joystick.jpg" alt="" />
+                    <div class="info">Title 1</div>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div class="nav">
+              <button class="prev">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="next">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
           </div>
-          <div class="nav">
-            <button class="prev">
-              <i class="fa-solid fa-arrow-left"></i>
-            </button>
-            <button class="next">
-              <i class="fa-solid fa-arrow-right"></i>
-            </button>
+        </section>
+
+        <!-- news -->
+        <section class="news">
+          <div class="title">
+            <h1>News</h1>
           </div>
-        </div>
-      </section>
 
-      <!-- news -->
-      <section class="news">
-        <div class="title">
-          <h1>News</h1>
-        </div>
+          <div class="newsGallery">
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </article>
 
-        <div class="newsGallery">
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
+            <article class="newsArticle">
+              <img src="/images/batman.jpg" alt="" class="newsImage" />
+              <div class="newsInfo">
+                <h2 class="newsTitle">Title</h2>
+                <p class="newsText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, at!
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
 
-          <article class="newsArticle">
-            <img src="/images/batman.jpg" alt="" class="newsImage" />
-            <div class="newsInfo">
-              <h2 class="newsTitle">Title</h2>
-              <p class="newsText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, at!
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-  </div>
+    <!-- footer -->
 
-  <!-- footer -->
+    <%- include("./partials/footer.ejs") %>
 
-  <%- include("./partials/footer.ejs") %> 
-
-  <script src="/javascripts/index.js"></script>
+      <script src="/javascripts/index.js"></script>
 </body>
 
 </html>
