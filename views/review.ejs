@@ -24,244 +24,149 @@
 
     <!-- header -->
 
-    <%- include("./partials/header.ejs") %> 
+    <%- include("./partials/header.ejs") %>
 
-    <!-- article -->
+        <!-- article -->
 
-    <section class="article">
-        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, amet.</h1>
+        <section class="article">
+            <h1>
+                <%= review.title %>
+            </h1>
 
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam culpa error quasi hic iusto!
-        </h2>
+            <h2>
+                <%= review.subtitleA %>
+            </h2>
 
-        <p>Lorem ipsum dolor sit amet.</p>
-
-
-        <div class="articleBody">
-
-            <div class="articleMain">
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                    velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                    illo?
-                    Pariatur nobis magni dicta ea temporibus.</p>
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                    velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                    illo?
-                    Pariatur nobis magni dicta ea temporibus.</p>
+            <p>
+                <%= review.date %>
+            </p>
 
 
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                    soluta
-                    non
-                    debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae
-                    eveniet laborum
-                    quibusdam doloribus magni totam dolor? Nihil laborum consequuntur commodi quae accusantium sed
-                    sapiente
-                    repellat quis voluptates qui!</p>
+            <div class="articleBody">
 
+                <div class="articleMain">
 
-                <p class="articleParagragh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-                    consequatur
-                    fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi
-                    reprehenderit porro
-                    eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos
-                    voluptatum error
-                    doloribus.</p>
+                    <div>
+                        <% for( let i=0; i < 4; i++ ) { %>
+                            <p>
+                                <%= review.paragraphsA[i] %>
+                            </p>
+                            <% } %>
+                    </div>
 
                     <div class="video">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/_bqjjK-hwIU"
-                            title="YouTube video player" frameborder="0"
+                        <iframe width="100%" height="600" src="<%=review.videoA %>" title="YouTube video player"
+                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
 
 
+                    <h2>
+                        <%= review.subtitleB %>
+                    </h2>
 
 
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis!</h2>
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab,
-                    velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus
-                    illo?
-                    Pariatur nobis magni dicta ea temporibus.</p>
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                    esse
-                    consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                    dolore.
-                    Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                    dolore
-                    excepturi
-                    ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                    ut sint?</p>
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil
-                    facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                    illum est
-                    praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                    non dolorem
-                    molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                    <img src="/images/batmanCombate.jpg" alt="">
-
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil
-                    facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                    illum est
-                    praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                    non dolorem
-                    molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil
-                    facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                    illum est
-                    praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                    non dolorem
-                    molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil
-                    facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                    illum est
-                    praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                    non dolorem
-                    molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil
-                    facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? Magni, repudiandae
-                    illum est
-                    praesentium ullam delectus aspernatur iusto, facilis unde voluptatem aliquam dolor dignissimos
-                    non dolorem
-                    molestiae voluptatum odit ad, provident corrupti?</p>
-
-
-
-
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                    esse
-                    consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                    dolore.
-                    Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                    dolore
-                    excepturi
-                    ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                    ut sint?</p>
-
-                    <img src="/images/batimovil.jpg" alt="">
-
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ullam
-                    esse
-                    consequatur, saepe necessitatibus voluptas perferendis, tempora veritatis explicabo, amet iusto
-                    dolore.
-                    Suscipit non voluptatibus voluptas ab voluptate, totam molestias maxime consectetur! Quisquam
-                    dolore
-                    excepturi
-                    ad inventore, cumque voluptatum libero magnam nostrum, dolor qui asperiores, est ullam aperiam
-                    ut sint?</p>
-
-
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? </p>
-
-
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis sit
-                    iusto rerum quia excepturi?
-                </p>
-
-
-
-                <p class="articleParagragh">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-
-
-                <div class="reviewBreakdown">
-                    <div class="reviewScore">
-                        <div class="scoreNumber">
-                           <p>7</p>                        
-                        <h3>asdasdasdad</h3>
+                    <div>
+                        <% for( let i=0; i < 3; i++ ) { %>
+                            <p>
+                                <%= review.paragraphsB[i] %>
+                            </p>
+                            <% } %>
                     </div>
 
 
+
+                    <img src="/images/reviews/<%= review.imageB %> " alt="">
+
+
+                    <div>
+                        <% for( let i=0; i < 5; i++ ) { %>
+                            <p>
+                                <%= review.paragraphsC[i] %>
+                            </p>
+                            <% } %>
                     </div>
-                    <div class="reviewBreakdownList">
-                        <h3>The Good</h3>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        </ul>
 
-                        <h3>The bad</h3>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        </ul>
+                    <img src="/images/reviews/<%= review.imageC %>" alt="">
 
+
+                    <div>
+                        <% for( let i=0; i < 4; i++ ) { %>
+                            <p>
+                                <%= review.paragraphsD[i] %>
+                            </p>
+                            <% } %>
+                    </div>
+
+                    <div class="reviewBreakdown">
+                        <div class="reviewScore">
+                            <div class="scoreNumber">
+                                <p>
+                                    <%= review.scoreNumber %>
+                                </p>
+                                <h3>
+                                    <%= review.scoreText %>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <div class="reviewBreakdownList">
+                            <h3>The Good</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+
+                            <h3>The bad</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            </ul>
+
+
+                        </div>
 
                     </div>
+
 
                 </div>
 
 
-            </div>
+                <aside class="sideArticle">
 
-
-            <aside class="sideArticle">
-
-                <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
-                    nihil facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? </p>
+                    <p class="articleParagragh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsa
+                        nihil facere adipisci aspernatur asperiores rem nemo nobis, quidem ea! Est, iste? </p>
 
 
 
 
-                <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis sit
-                    iusto rerum quia excepturi?
-                </p>
+                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis sit
+                        iusto rerum quia excepturi?
+                    </p>
 
 
 
-                <p class="articleParagragh">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
+                    <p class="articleParagragh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero consequatur recusandae reprehenderit dolores inventore! Rem non alias debitis hic nulla, illum cupiditate dignissimos numquam! Rerum dignissimos repellendus quidem earum, laboriosam assumenda quo dolor sapiente sit in eligendi iste at recusandae beatae mollitia alias ipsa iure sed? Facere tempore quidem repudiandae.
+                    </p>
 
 
-            </aside>
+                </aside>
 
 
 
 
-    </section>
+        </section>
 
 
 
 
 
-    <!-- footer -->
-    <%- include("./partials/footer.ejs") %> 
+        <!-- footer -->
+        <%- include("./partials/footer.ejs") %>
 
 </body>
 

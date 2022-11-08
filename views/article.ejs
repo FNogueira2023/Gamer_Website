@@ -30,15 +30,15 @@
 
         <section class="article">
             <h1>
-                <%= selectedArticle.title %>
+                <%= article.title %>
             </h1>
 
             <h2>
-                <%= selectedArticle.subtitleA %>
+                <%= article.subtitleA %>
             </h2>
 
             <p>
-                <%= selectedArticle.date %>
+                <%= article.date %>
             </p>
 
 
@@ -47,13 +47,13 @@
                     <div>
                         <% for( let i=0; i < 4; i++ ) { %>
                             <p>
-                                <%= selectedArticle.paragraphsA[i] %>
+                                <%= article.paragraphsA[i] %>
                             </p>
                             <% } %>
                     </div>
 
                     <div class="video">
-                        <iframe width="100%" height="800" src=<%=selectedArticle.videoA %>
+                        <iframe width="100%" height="800" src=<%=article.videoA %>
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
                             picture-in-picture"
@@ -61,34 +61,34 @@
                     </div>
 
                     <h2>
-                        <%= selectedArticle.subtitleB %>
+                        <%= article.subtitleB %>
                     </h2>
 
                     <div>
                         <% for( let i=0; i < 3; i++ ) { %>
                             <p>
-                                <%= selectedArticle.paragraphsB[i] %>
+                                <%= article.paragraphsB[i] %>
                             </p>
                             <% } %>
                     </div>
 
-                    <img src="/images/<%= selectedArticle.imageB %> " alt="">
+                    <img src="/images/<%= article.imageB %> " alt="">
 
 
                     <div>
                         <% for( let i=0; i < 4; i++ ) { %>
                             <p>
-                                <%= selectedArticle.paragraphsC[i] %>
+                                <%= article.paragraphsC[i] %>
                             </p>
                             <% } %>
                     </div>
 
-                    <img src="/images/<%= selectedArticle.imageC %> " alt="">
+                    <img src="/images/<%= article.imageC %> " alt="">
 
                     <div>
                         <% for( let i=0; i < 3; i++ ) { %>
                             <p>
-                                <%= selectedArticle.paragraphsD[i] %>
+                                <%= article.paragraphsD[i] %>
                             </p>
                             <% } %>
                     </div>

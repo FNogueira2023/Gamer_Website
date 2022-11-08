@@ -3,7 +3,7 @@ const path = require('path');
 
 let lastnewsDataPath = '../Database/lastNews.json';
 let podcastsDataPath = '../Database/podcasts.json';
-let reviewsDataPath = '../Database/lastReviews.json';
+let reviewsDataPath = '../Database/reviews.json';
 
 function getData(dataPath) {
     const jsonData = fs.readFileSync(path.join(__dirname, dataPath),
@@ -18,17 +18,18 @@ const controller = {
 
         const lastNewsIndex = getData(lastnewsDataPath);
         const podcastsIndex = getData(podcastsDataPath);
+        const reviewsIndex = getData(reviewsDataPath);
 
-        res.render('index', { lastNewsIndex, podcastsIndex });
+        res.render('index', { lastNewsIndex, podcastsIndex, reviewsIndex });
     },
     article: (req, res) => {
-        const lastNewsArticle = lastNewsData();
+        const lastNewsArticle = getData(lastnewsDataPath);
 
         const selectedArticle = lastNewsArticle.find(article => {
             return article.id == req.params.id;
         })
 
-        res.render('article', { selectedArticle });
+        res.render('article', { article: selectedArticle });
     },
     review: (req, res) => {
         const review = getData(reviewsDataPath);
