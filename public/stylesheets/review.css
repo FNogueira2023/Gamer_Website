@@ -56,13 +56,26 @@
     justify-content: center;
 }
 
-.articleMain .scoreNumber {
+.articleMain .scoreNumber {    
     align-self: center;
+    justify-content: center;
+    position: relative;
+    
+}
+  
+.articleMain .scoreNumber p{  
+    font-size: 100px;   
+    max-width: 80px;
+    margin: auto;
+   
 }
 
-.articleMain .reviewScore h3{
-    align-self: center;
-    text-align: center;
+.articleMain .scoreNumber h3 {
+   position: relative;
+   right: 10px;
+}
+
+.articleMain .reviewScore h3{    
 }
 
 .articleMain .reviewBreakdownList {
@@ -77,7 +90,10 @@
 
 .articleMain .reviewBreakdownList ul {
     padding: 1rem;
+    list-style-type: armenian;
 }
 
-.articleMain .reviewBreakdownList ul li {}
+.articleMain .reviewBreakdownList ul li {
+    
+}
 

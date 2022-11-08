@@ -1,29 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 
+let lastnewsDataPath = '../Database/lastNews.json';
+let podcastsDataPath = '../Database/podcasts.json';
+let reviewsDataPath = '../Database/lastReviews.json';
 
-function lastNewsData() {
-    const jsonData = fs.readFileSync(path.join(__dirname, '../Database/lastNews.json'),
+function getData(dataPath) {
+    const jsonData = fs.readFileSync(path.join(__dirname, dataPath),
         { encoding: 'utf8' });
-    const lastNewsData = JSON.parse(jsonData);
+    const data = JSON.parse(jsonData);
 
-    return lastNewsData;
+    return data;
 }
-
-function podcastsData() {
-    const jsonData = fs.readFileSync(path.join(__dirname, '../Database/podcasts.json'),
-        { encoding: 'utf8' });
-    const podcastsData = JSON.parse(jsonData);
-
-    return podcastsData;
-}
-
 
 const controller = {
     index: (req, res) => {
 
-        const lastNewsIndex = lastNewsData();
-        const podcastsIndex = podcastsData();
+        const lastNewsIndex = getData(lastnewsDataPath);
+        const podcastsIndex = getData(podcastsDataPath);
 
         res.render('index', { lastNewsIndex, podcastsIndex });
     },
@@ -37,10 +31,16 @@ const controller = {
         res.render('article', { selectedArticle });
     },
     review: (req, res) => {
-        res.render('review');
+        const review = getData(reviewsDataPath);
+
+        const selectedReview = review.find(review => {
+            return review.id == req.params.id;
+        })
+
+        res.render('review', { review: selectedReview });
     },
     podcast: (req, res) => {
-        const podcast = podcastsData();
+        const podcast = getData(podcastsDataPath);
 
         const selectedPodcast = podcast.find(podcast => {
             return podcast.id == req.params.id;
