@@ -15,7 +15,7 @@ router.get('/article/:id', mainController.article);
 // Get review
 // authmiddleware esta como testeo!
 router.get('/review',authMiddleware, mainController.review);
-router.get('/podcast',mainController.podcast);
+router.get('/podcast/:id',mainController.podcast);
 
 
 

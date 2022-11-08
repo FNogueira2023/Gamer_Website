@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/stylesheets/podcast.css">
     <link rel="stylesheet" href="/stylesheets/style.css" />
     <link rel="stylesheet" href="/stylesheets/mediaQueries.css" />
 
@@ -27,40 +26,13 @@
 
 
 
-    <!-- article -->
+    
 
-    <section class="article">
-        <h1>
-            <%= podcast.title %>
-        </h1>
-
-        <h2>
-            <%= podcast.subtitleA %>
-        </h2>
-
-        <p>
-            <%= podcast.subtitleB %>
-        </p>
-
-        <div class="articleBody">
-
-            <p>
-                <%= podcast.paragraphsA %>
-            </p>
-
-            <iframe style="border-radius:12px" src="<%= podcast.videoA %>" width="100%" height="152" frameBorder="0"
-                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-
-        </div>
-    </section>
 
 
     <div>
         <%- include("./partials/footer.ejs") %>
     </div>
-
-
 </body>
 
 </html>

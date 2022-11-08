@@ -1,42 +1,42 @@
 [
+    {},
     {
         "id": 1,
         "title": "Everything we know about Alone in the Dark",
         "subtitleA": "That might be hard for some readers to believe, but it makes it less of a surprise that we're now getting another Alone in the Dark game",
         "subtitleB": "Lorem ipsum dolor sit amet.",
-        "imageA":"/images/aloneA.jpg",
+        "imageA":"aloneA.jpg",
         "paragraphsA": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, fugit voluptate deleniti in dolor laborum ad quae veritatis sunt libero omnis optio minus illum quod. Reiciendis maiores, aut at nesciunt adipisci similique culpa provident distinctio quasi consectetur unde id fugit minus natus neque harum. Voluptates voluptatibus assumenda aliquam sit veniam.",
-        "videoA": "https://open.spotify.com/episode/4hBvvDbdHsC6ywO3JHXAwZ?go=1&sp_cid=9c3552b903391477de39af3bd476828c&utm_source=embed_player_p&utm_medium=desktop",
-        "videoB": "https://youtu.be/zsGaVrMr9N8"
+        "videoA": "https://open.spotify.com/embed/episode/4hBvvDbdHsC6ywO3JHXAwZ?utm_source=generator",
+        "videoB": "https://www.youtube.com/embed/zsGaVrMr9N8"
     },
     {
         "id": 2,
         "title": "How anime and videogames work in tandem",
         "subtitleA": "We look at how Japanese animation and videogames have continued to inspire one another.",
         "subtitleB": "Lorem ipsum dolor sit amet.",
-        "imageA":"/images/animeA.jpg",
+        "imageA":"animeA.jpg",
         "paragraphsA": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, fugit voluptate deleniti in dolor laborum ad quae veritatis sunt libero omnis optio minus illum quod. Reiciendis maiores, aut at nesciunt adipisci similique culpa provident distinctio quasi consectetur unde id fugit minus natus neque harum. Voluptates voluptatibus assumenda aliquam sit veniam.",
-        "videoA": "https://open.spotify.com/episode/710FIvUaBjq4ghttah5zR0",
-        "videoB": "https://www.youtube.com/watch?v=Kd_nbJ3i6sU"
+        "videoA": "https://open.spotify.com/embed/episode/710FIvUaBjq4ghttah5zR0?utm_source=generator",
+        "videoB": "https://www.youtube.com/embed/Kd_nbJ3i6sU"
     },
     {
         "id": 3,
         "title": "Xbox at gamescom 2022",
         "subtitleA": "This year the Xbox booth will be back in Hall 8 and will feature 36 stations with a fantastic line-up of content coming to Xbox in the next 12 months, many of which will arrive on Game Pass on day one.",
         "subtitleB": "Lorem ipsum dolor sit amet.",
-        "imageA": "batman.jpg",
+        "imageA": "gamescomA.jpg",
         "paragraphsA": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, fugit voluptate deleniti in dolor laborum ad quae veritatis sunt libero omnis optio minus illum quod. Reiciendis maiores, aut at nesciunt adipisci similique culpa provident distinctio quasi consectetur unde id fugit minus natus neque harum. Voluptates voluptatibus assumenda aliquam sit veniam.",
-        "videoA": "https://open.spotify.com/episode/0ebUiLOGgSJtcUhrkAesjJ",
-        "videoB": "https://www.youtube.com/watch?v=ktp7OEpDK9E"
+        "videoA": "https://open.spotify.com/embed/episode/0ebUiLOGgSJtcUhrkAesjJ?utm_source=generator",
+        "videoB": "https://www.youtube.com/embed/ktp7OEpDK9E"
     },
     {
         "id": 4,
-        "title": "Arkham Knight Could Be Getting Xbox Series X/S Enhancements",
-        "subtitleA": "It features Auto HDR support with a 900p resolution at 30fps. It should smoothly hit these targets with the extra power that is present.",
-        "subtitleB": "Lorem ipsum dolor sit amet.",
-        "imageA": "batman.jpg",
+        "title": "Hideo Kojima breaks silence on 'Abandoned' conspiracies",
+        "subtitleA": "Fans speculated that Blue Box Studios and Hasan could be further inventions of Kojima.",
+        "imageA": "kojimaA.jpg",
         "paragraphsA": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, fugit voluptate deleniti in dolor laborum ad quae veritatis sunt libero omnis optio minus illum quod. Reiciendis maiores, aut at nesciunt adipisci similique culpa provident distinctio quasi consectetur unde id fugit minus natus neque harum. Voluptates voluptatibus assumenda aliquam sit veniam.",
-        "videoA": "",
-        "videoB": ""
-    },
+        "videoA": "https://open.spotify.com/embed/episode/1C3a2W2PWMVvtwh81jKSOC?utm_source=generator",
+        "videoB": "https://www.youtube.com/embed/qtK3jk_-ydo"
+    }
 ]

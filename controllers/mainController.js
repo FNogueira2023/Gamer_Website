@@ -10,16 +10,22 @@ function lastNewsData() {
     return lastNewsData;
 }
 
+function podcastsData() {
+    const jsonData = fs.readFileSync(path.join(__dirname, '../Database/podcasts.json'),
+        { encoding: 'utf8' });
+    const podcastsData = JSON.parse(jsonData);
 
-
+    return podcastsData;
+}
 
 
 const controller = {
     index: (req, res) => {
-        const lastNewsIndex = lastNewsData();
 
-        console.log(req.session.user);
-        res.render('index', { lastNewsIndex });
+        const lastNewsIndex = lastNewsData();
+        const podcastsIndex = podcastsData();
+
+        res.render('index', { lastNewsIndex, podcastsIndex });
     },
     article: (req, res) => {
         const lastNewsArticle = lastNewsData();
@@ -34,7 +40,12 @@ const controller = {
         res.render('review');
     },
     podcast: (req, res) => {
-        res.render('podcast');
+        const podcast = podcastsData();
+
+        const selectedPodcast = podcast.find(podcast => {
+            return podcast.id == req.params.id;
+        })
+        res.render('podcast', { podcast: selectedPodcast });
     }
 
 };
