@@ -4,8 +4,6 @@ const track = document.querySelector('.track');
 
 
 
-
-
 //  carousel
 let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 
@@ -34,11 +32,6 @@ prev.addEventListener('click', () => {
   }
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
 })
-
-
-
-
-// to top button
 
 
 
