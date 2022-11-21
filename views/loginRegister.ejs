@@ -33,7 +33,7 @@
                     <form action="/users/create" method="post">
                         <label for="chk" aria-hidden="true">Sign up</label>
                         <input type="hidden" name="formType" value="signup">
-                        <input type="text" name="user" placeholder="User name"
+                        <input type="text" name="userName" placeholder="User name"
                             value="<%=locals.old && old.user ? old.user :" User name" %>" required>
                         <input type="email" name="email" placeholder="Email"
                             value="<%= locals.old && old.user  ? old.email :" Email" %>" required>

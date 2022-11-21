@@ -1,37 +1,30 @@
-
-
 module.exports = (sequelize, dataTypes) => {
-
-    let alias = 'Users';
+    let alias = "Users";
     let cols = {
         id: {
             type: dataTypes.INTEGER,
             primaryKey: true,
-            autoIncrement: true,
-            allowNull: false,
-            unique: true
-        },
-        email: {
-            type: dataTypes.VARCHAR,
-            allowNull: false,
-            unique: true
-        },
-        pswd: {
-            type: dataTypes.VARCHAR,
-            allowNull: false
+            autoIncrement: true
         },
         userName: {
-            type: dataTypes.VARCHAR,
-            allowNull: false
+            type: dataTypes.STRING,
+            defaultValue: "John Doe"
+        },
+        pswd: {
+            type: dataTypes.STRING
+        },
+        email: {
+            type: dataTypes.STRING,
+            defaultValue: "johnDoe@mail.com"
         }
+    }
+    let config = {
+        tableName: "users",
+        timesStamps: false
     };
 
-    let config = {
-        tableName: 'users',
-        timestamps: false
-    }
-
     const User = sequelize.define(alias, cols, config);
+
     return User;
 
-}
+};

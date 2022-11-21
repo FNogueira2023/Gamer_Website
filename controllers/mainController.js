@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-let lastnewsDataPath = '../data/lastNews.json';
-let podcastsDataPath = '../data/podcasts.json';
-let reviewsDataPath = '../data/reviews.json';
+let lastnewsDataPath = '../Database/lastNews.json';
+let podcastsDataPath = '../Database/podcasts.json';
+let reviewsDataPath = '../Database/reviews.json';
 
 function getData(dataPath) {
     const jsonData = fs.readFileSync(path.join(__dirname, dataPath),

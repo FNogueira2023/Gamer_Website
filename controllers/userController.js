@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const bcryptjs = require('bcryptjs');
 const { validationResult } = require('express-validator');
+const db = require('../database/models')
 
 
 
@@ -34,23 +35,15 @@ const controller = {
                     old: req.body
                 });
         } else {
+            
 
-            const data = findAll()
-
-            const newUser = {
-                id: data.length + 1,
-                user: req.body.user,
+            db.Users.create({
                 email: req.body.email,
-                pswd: bcryptjs.hashSync(req.body.pswd, 10)
+                pswd: req.body.pswd,
+                userName: req.body.userName
+            });
 
-            }
-
-            data.push(newUser);
-
-            writeFile(data)
-
-            res.redirect("/users");
-
+            res.redirect('/');
         }
     },
     login: (req, res) => {

@@ -2,7 +2,7 @@ const { body } = require('express-validator');
 
 
 const validateRegister = [
-    body('user')
+    body('userName')
         .notEmpty()
         .withMessage('Please fill out with your user name')
         .bail()
