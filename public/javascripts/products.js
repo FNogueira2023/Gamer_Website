@@ -27,8 +27,8 @@ window.onload = () => {
                 
                 const a = document.createElement('a');
                 const link = document.createTextNode(info.textContent);                   
-                a.appendChild(link);    
-                a.appendChil                       
+                a.appendChild(link); 
+                                
                 a.title = info.textContent;                
                 a.href = `https://www.amazon.com/s?k=${product.title}`;
                 
