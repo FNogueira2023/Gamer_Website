@@ -290,8 +290,8 @@ ul {
 .lastReviewsTitle {
     position: absolute;
     bottom: 0;
-    left: 1rem;    
-    color: white;     
+    left: 1rem;
+    color: white;
 }
 
 .podcastsText,
@@ -424,22 +424,19 @@ ul {
     flex: 1;
 }
 
-.card .img {
+img.card-image {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    min-height: 180px;
+
 }
 
-.card .info {
-    width: 100%;
-    flex-basis: 40px;
-    color: white;
-    flex-grow: 0;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    border-top: 1px solid white;
+.card-info {
+    color: black;
+
+
 }
 
 /*  news */
