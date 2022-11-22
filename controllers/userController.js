@@ -34,9 +34,7 @@ const controller = {
                     errors: errors.array(),
                     old: req.body
                 });
-        } else {
-            
-
+        } else {            
             db.Users.create({
                 email: req.body.email,
                 pswd: req.body.pswd,
