@@ -248,6 +248,7 @@ ul {
 /* .newsTitle, */
 .lastNewsTitle {
     position: absolute;
+    left: 1rem;
     bottom: 0;
     color: white;
 }
@@ -289,7 +290,8 @@ ul {
 .lastReviewsTitle {
     position: absolute;
     bottom: 0;
-    color: white;
+    left: 1rem;    
+    color: white;     
 }
 
 .podcastsText,
