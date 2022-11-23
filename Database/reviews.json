@@ -151,5 +151,211 @@
         "videoA": "https://www.youtube.com/embed/98wujVDdnNQ",
         "scoreNumber": 9,
         "scoreText": "Excellent"      
+    },
+    {
+        "id": 4,
+        "title": "Call Of Duty",
+        "subtitleA": "Modern Warfare 2",
+        "subtitleB": "Modern Warfare 2 dials back Call of Duty's multiplayer experience for a refreshing and more classic feel, but the overall package is incomplete.",
+        "imageA": "callofdutyA.jpg",
+        "imageB": "callofdutyB.jpg",
+        "imageC": "callofdutyC.jpg",
+        "imageD": "callofdutyD.jpg",
+        "date": "28/11/2022",
+        "paragraphsA": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsB": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?"
+        ],
+        "paragraphsC": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+            ,
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsD": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos?.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus."
+        ],
+        "videoA": "https://www.youtube.com/embed/Xd9QeRguvDA",
+        "scoreNumber": 8,
+        "scoreText": "Very good"     
+
+    },
+    {
+        "id": 5,
+        "title": "Marvel's Spider-Man",
+        "subtitleA": "Miles Morales Review",
+        "subtitleB": "Marvel's Spider-Man: Miles Morales sticks a bit too close to its predecessor in terms of mechanics, but manages to stand on its own through its story and characters.",
+        "imageA": "spidermanA.jpg",
+        "imageB": "spidermanB.png",
+        "imageC": "spidermanC.png",
+        "imageD": "spidermanC.png",
+        "date": "30/11/2022",
+        "paragraphsA": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsB": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?"
+        ],
+        "paragraphsC": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+            ,
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsD": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos?.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus."
+        ],
+        "videoA": "https://www.youtube.com/embed/NTunTURbyUU",
+        "scoreNumber": 8,
+        "scoreText": "Very good"     
+
+    },
+    {
+        "id": 6,
+        "title": "Somerville",
+        "subtitleA": "I Wanted To Believe",
+        "subtitleB": "Jumpship's wordless debut comes uniquely structured, but neither the story nor the gameplay do enough to help it carry the torch it's been passed.",
+        "imageA": "sommervilleA.jpg",
+        "imageB": "sommervilleB.jpg",
+        "imageC": "sommervilleC.jpg",
+        "imageD": "sommervilleD.jpg",
+        "date": "30/11/2022",
+        "paragraphsA": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsB": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?"
+        ],
+        "paragraphsC": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+            ,
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsD": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos?.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus."
+        ],
+        "videoA": "https://www.youtube.com/embed/B_lPMatv07o",
+        "scoreNumber": 7,
+        "scoreText": "Good"     
+
+    },
+    {
+        "id": 7,
+        "title": "Pentiment ",
+        "subtitleA": "Layers Of History",
+        "subtitleB": "Pentiment too often limits its most enjoyable pieces to reach an ending that makes sense but is still unfulfilling.",
+        "imageA": "pentimentA.jpg",
+        "imageB": "pentimentB.jpg",
+        "imageC": "pentimentC.jpg",
+        "imageD": "pentimentD.jpg",
+        "date": "15/12/2022",
+        "paragraphsA": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsB": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?"
+        ],
+        "paragraphsC": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+            ,
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus. Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta non debitis tempora laborum perspiciatis architecto et accusamus dignissimos labore. Repudiandae eveniet laborum quibusdam doloribus magni totam dolor?",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos? Atque temporibus quia soluta nam ad saepe, enim ea aspernatur veniam corrupti quos voluptatum error doloribus."
+        ],
+        "paragraphsD": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus.",
+
+            "Nihil laborum consequuntur commodi quae accusantium sed sapiente repellat quis voluptates qui!.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consequatur fuga, quas rerum voluptatem eligendi asperiores veritatis, reiciendis quis labore sequi reprehenderit porro eos?.",
+
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius ab, velit laborum, illum doloremque vel in sapiente assumenda tenetur consequatur, amet accusamus illo? Pariatur nobis magni dicta ea temporibus."
+        ],
+        "videoA": "https://www.youtube.com/embed/OfYryKWkNfw",
+        "scoreNumber": 7,
+        "scoreText": "Good"     
+
+    
     }
+    
 ]

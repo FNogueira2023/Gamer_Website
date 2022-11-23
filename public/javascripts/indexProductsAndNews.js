@@ -1,12 +1,14 @@
 window.onload = () => {
-
     const track = document.querySelector('.track');
+    const url = 'https://dummyjson.com/products';  
 
-    fetch('https://dummyjson.com/products')
+
+
+    fetch(url)
         .then(res => res.json())
         .then(data => {
-            let products = data.products;
-            console.log(products);
+            let products = data.products; 
+            console.log(products);           
 
             products.forEach(product => {
                 const cardContainer = document.createElement('div');
@@ -14,7 +16,7 @@ window.onload = () => {
 
                 const card = document.createElement('div');
                 card.setAttribute('class', 'card');
-              
+
 
                 const image = document.createElement('img');
                 image.src = product.images[0];
@@ -22,38 +24,22 @@ window.onload = () => {
 
                 const info = document.createElement('p');
                 info.textContent = product.title;
-                info.setAttribute('class','card-info');
+                info.setAttribute('class', 'card-info');
 
-                
+
                 const a = document.createElement('a');
-                const link = document.createTextNode(info.textContent);                   
-                a.appendChild(link); 
-                                
-                a.title = info.textContent;                
+                const link = document.createTextNode(info.textContent);
+                a.appendChild(link);
+
+                a.title = info.textContent;
                 a.href = `https://www.amazon.com/s?k=${product.title}`;
-                
-               
-
-
-
-
-
-
 
                 track.appendChild(cardContainer);
                 cardContainer.appendChild(card);
                 card.appendChild(image);
-               
+
                 card.appendChild(a);
                 a.appendChild(info);
-
-
-
             });
-
-
         });
-
-
-
 }

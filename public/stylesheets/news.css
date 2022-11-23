@@ -1,0 +1,38 @@
+.container-news {
+    background-color: white;
+    width: 90%;
+    max-width: 1400px;
+    margin: 8rem auto;
+}
+
+/*  news */
+
+.newsGallery {
+    gap: 1.5rem;
+    
+
+}
+
+.newsArticle {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    grid-column-start: span 3;
+
+}
+.newsImage {
+    width: 50%;
+    grid-column-start: span 2;
+    width: 280px;
+    
+}
+
+.newsInfo {
+    margin: 0 1rem;
+    max-width: 550px;
+}
+
+
+.newsText {
+    max-width: 500px;
+}

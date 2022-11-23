@@ -12,6 +12,8 @@ router.get('/', mainController.index);
 //  GET article
 router.get('/article/:id', mainController.article);
 
+router.get('/news', mainController.news);
+
 // Get review
 // authmiddleware esta como testeo!
 router.get('/reviews/:id',mainController.review);

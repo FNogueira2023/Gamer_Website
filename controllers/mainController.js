@@ -47,6 +47,9 @@ const controller = {
             return podcast.id == req.params.id;
         })
         res.render('podcast', { podcast: selectedPodcast });
+    },
+    news: (req,res) => {
+        res.render('news');
     }
 
 };
